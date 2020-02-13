@@ -1,0 +1,188 @@
+w3schools.comTHE WORLD'S LARGEST WEB DEVELOPER SITE
+Node.js Tutorial
+Node.js HOME
+Node.js Intro
+Node.js Get Started
+Node.js Modules
+Node.js HTTP Module
+Node.js File System
+Node.js URL Module
+Node.js NPM
+Node.js Events
+Node.js Upload Files
+Node.js Email
+
+Node.js MySQL
+MySQL Get Started
+MySQL Create Database
+MySQL Create Table
+MySQL Insert Into
+MySQL Select From
+MySQL Where
+MySQL Order By
+MySQL Delete
+MySQL Drop Table
+MySQL Update
+MySQL Limit
+MySQL Join
+
+Node.js MongoDB
+MongoDB Get Started
+MongoDB Create Database
+MongoDB Create Collection
+MongoDB Insert
+MongoDB Find
+MongoDB Query
+MongoDB Sort
+MongoDB Delete
+MongoDB Drop Collection
+MongoDB Update
+MongoDB Limit
+MongoDB Join
+
+Raspberry Pi
+RasPi Get Started
+RasPi GPIO Introduction
+RasPi Blinking LED
+RasPi LED & Pushbutton
+RasPi Flowing LEDs
+RasPi WebSocket
+RasPi RGB LED WebSocket
+RasPi Components
+
+Node.js Reference
+Built-in Modules
+
+
+Node.js Get Started
+Download Node.js
+The official Node.js website has installation instructions for Node.js: https://nodejs.org
+
+Getting Started
+Once you have downloaded and installed Node.js on your computer, let's try to display "Hello World" in a web browser.
+
+Create a Node.js file named "myfirst.js", and add the following code:
+
+myfirst.js
+
+var http = require('http');
+
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.end('Hello World!');
+}).listen(8080);
+Save the file on your computer: C:\Users\Your Name\myfirst.js
+
+The code tells the computer to write "Hello World!" if anyone (e.g. a web browser) tries to access your computer on port 8080.
+
+For now, you do not have to understand the code. It will be explained later.
+
+Command Line Interface
+Node.js files must be initiated in the "Command Line Interface" program of your computer.
+
+How to open the command line interface on your computer depends on the operating system. For Windows users, press the start button and look for "Command Prompt", or simply write "cmd" in the search field.
+
+Navigate to the folder that contains the file "myfirst.js", the command line interface window should look something like this:
+
+C:\Users\Your Name>_
+Initiate the Node.js File
+The file you have just created must be initiated by Node.js before any action can take place.
+
+Start your command line interface, write node myfirst.js and hit enter:
+
+Initiate "myfirst.js":
+
+C:\Users\Your Name>node myfirst.js
+Now, your computer works as a server!
+
+If anyone tries to access your computer on port 8080, they will get a "Hello World!" message in return!
+
+Start your internet browser, and type in the address: http://localhost:8080
+
+
+COLOR PICKER
+colorpicker
+HOW TO
+Tabs
+Dropdowns
+Accordions
+Side Navigation
+Top Navigation
+Modal Boxes
+Progress Bars
+Parallax
+Login Form
+HTML Includes
+Google Maps
+Range Sliders
+Tooltips
+Slideshow
+Filter List
+Sort List
+SHARE
+
+
+CERTIFICATES
+HTML
+CSS
+JavaScript
+SQL
+Python
+PHP
+jQuery
+Bootstrap
+XML
+
+Top Tutorials
+HTML Tutorial
+CSS Tutorial
+JavaScript Tutorial
+How To Tutorial
+SQL Tutorial
+Python Tutorial
+W3.CSS Tutorial
+Bootstrap Tutorial
+PHP Tutorial
+jQuery Tutorial
+Java Tutorial
+C++ Tutorial
+Top References
+HTML Reference
+CSS Reference
+JavaScript Reference
+SQL Reference
+Python Reference
+W3.CSS Reference
+Bootstrap Reference
+PHP Reference
+HTML Colors
+jQuery Reference
+Java Reference
+Angular Reference
+Top Examples
+HTML Examples
+CSS Examples
+JavaScript Examples
+How To Examples
+SQL Examples
+Python Examples
+W3.CSS Examples
+Bootstrap Examples
+PHP Examples
+jQuery Examples
+Java Examples
+XML Examples
+Web Certificates
+HTML Certificate
+CSS Certificate
+JavaScript Certificate
+SQL Certificate
+Python Certificate
+jQuery Certificate
+PHP Certificate
+Bootstrap Certificate
+XML Certificate
+W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2020 by Refsnes Data. All Rights Reserved.
+Powered by W3.CSS.
+
+W3Schools.com
